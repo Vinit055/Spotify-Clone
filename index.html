@@ -36,7 +36,7 @@
                     <img src="Album covers/wohlamhe.jpg" alt="1">
                     <p class="songName">Kya Mujhe Pyaar Hai</p>
                     <p class="timestamp">4:12</p>
-                    <i class="fa-regular songItemPlay fa-circle-play" style="cursor: pointer"
+                    <i id="1" class="fa-regular songItemPlay fa-circle-play"  style="cursor: pointer"
                     onmouseover="this.style.transform='scale(1.2)'"
                     onmouseout="this.style.transform='scale(1.0)'"></i>
                 </div>
@@ -45,7 +45,7 @@
                     <img src="Album covers/naina.jpeg" alt="1">
                     <p class="songName">Naina (from "Crew")</p>
                     <p class="timestamp">3:00</p>
-                    <i class="fa-regular songItemPlay fa-circle-play" style="cursor: pointer"
+                    <i id="2" class="fa-regular songItemPlay fa-circle-play"  style="cursor: pointer"
                     onmouseover="this.style.transform='scale(1.2)'"
                     onmouseout="this.style.transform='scale(1.0)'"></i>
                 </div>
@@ -54,7 +54,7 @@
                     <img src="Album covers/akhiyaangulaab.jpg" alt="1">
                     <p class="songName">Akhiyaan Gulaab</p>
                     <p class="timestamp">2:51</p>
-                    <i class="fa-regular songItemPlay fa-circle-play" style="cursor: pointer"
+                    <i id="3" class="fa-regular songItemPlay fa-circle-play"  style="cursor: pointer"
                     onmouseover="this.style.transform='scale(1.2)'"
                     onmouseout="this.style.transform='scale(1.0)'"></i>
                 </div>
@@ -63,7 +63,7 @@
                     <img src="Album covers/lover.jpg" alt="1">
                     <p class="songName">Lover (Remix)</p>
                     <p class="timestamp">3:41</p>
-                    <i class="fa-regular songItemPlay fa-circle-play" style="cursor: pointer"
+                    <i id="4" class="fa-regular songItemPlay fa-circle-play"  style="cursor: pointer"
                     onmouseover="this.style.transform='scale(1.2)'"
                     onmouseout="this.style.transform='scale(1.0)'"></i>
                 </div>
@@ -72,7 +72,7 @@
                     <img src="Album covers/thoseeys.png" alt="1">
                     <p class="songName">Those Eyes</p>
                     <p class="timestamp">3:40</p>
-                    <i class="fa-regular songItemPlay fa-circle-play" style="cursor: pointer"
+                    <i id="5" class="fa-regular songItemPlay fa-circle-play"  style="cursor: pointer"
                     onmouseover="this.style.transform='scale(1.2)'"
                     onmouseout="this.style.transform='scale(1.0)'"></i>
                 </div>
@@ -84,19 +84,19 @@
     <div class="bottom">
         <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100">
         <div class="icons">
-            <i class="fa-solid fa-backward fa-2x"  style="cursor: pointer"
+            <i id="backward" class="fa-solid fa-backward fa-2x"  style="cursor: pointer"
             onmouseover="this.style.transform='scale(1.2)'"
             onmouseout="this.style.transform='scale(1.0)'"></i>
             <i class="fa-regular fa-circle-play fa-2x" style="cursor: pointer"
             onmouseover="this.style.transform='scale(1.2)'"
             onmouseout="this.style.transform='scale(1.0)'" id="masterPlay"></i> 
-            <i class="fa-solid fa-forward fa-2x" style="cursor: pointer"
+            <i id="forward" class="fa-solid fa-forward fa-2x" style="cursor: pointer"
             onmouseover="this.style.transform='scale(1.2)'"
             onmouseout="this.style.transform='scale(1.0)'"></i> 
         </div>
         <div class="songInfo">
             <img src="playing.gif" alt="playing" id="gif">
-            Song name
+            <span id="masterSongName">Kya Mujhe Pyaar Hai</span>
         </div>
     </div>
     
