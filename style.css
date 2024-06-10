@@ -53,7 +53,7 @@ nav ul li{
     flex-direction: column;
     margin: 20px auto;
     border-radius: 15px;
-    padding: 30px;
+    padding: 15px 25px;
 }
 .header{
     height: 150px;
@@ -83,6 +83,19 @@ nav ul li{
     align-items: center;
     flex-direction: column;
 }
+.songInfo img{
+    width: 5vw;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    bottom: 35px;
+    font-family: "Exo 2", sans-serif;
+    font-weight: bolder;
+    font-size: 2vw;
+} 
 
 .icons{
     margin-top: 20px
@@ -105,9 +118,10 @@ nav ul li{
 
 .title{
     margin: 0 20px;
+    width: 20%;
 }
-.index span i{
-    margin-left:245px ;
+.index i{
+    margin-left:100px ;
 }
 
 .songItem{
@@ -121,11 +135,8 @@ nav ul li{
 .timestamp{
     width: 40px;
 }
-.songItem i{
-    cursor: pointer;
-}
 
-.song1{
+.songs{
    display: flex;
    align-items: center;
    height: 50px;
@@ -134,112 +145,21 @@ nav ul li{
     font-family: "Exo 2", sans-serif;
     font-weight: bolder;
     font-size: 1.2rem;
-    margin: 15px 0;
+    margin: 35px 0;
 }
 
-.song1 p{
+.songs p{
     margin: 0 20px;
 }
-.song1 img{
+.songs img{
     margin-left: 25px;
     width: 50px;
     border-radius: 10px;
 }
 
-.song2{
-    display: flex;
-    align-items: center;
-    height: 50px;
-    width: 100%;
-     color: black;
-     font-family: "Exo 2", sans-serif;
-     font-weight: bolder;
-     font-size: 1.2rem;
-     margin: 15px 0;
-     
- }
- 
- .song2 p{
-     margin: 0 20px;
- }
- .song2 img{
-     margin-left: 25px;
-     width: 50px;
-     border-radius: 10px;
- }
-
-
- .song3{
-    display: flex;
-    align-items: center;
-    height: 50px;
-    width: 100%;
-     color: black;
-     font-family: "Exo 2", sans-serif;
-     font-weight: bolder;
-     font-size: 1.2rem;
-     margin: 15px 0;
-     
- }
- 
- .song3 p{
-     margin: 0 20px;
- }
- .song3 img{
-     margin-left: 25px;
-     width: 50px;
-     border-radius: 10px;
- }
- 
- .song4{
-    display: flex;
-    align-items: center;
-    height: 50px;
-    width: 100%;
-     color: black;
-     font-family: "Exo 2", sans-serif;
-     font-weight: bolder;
-     font-size: 1.2rem;
-     margin: 15px 0;
-     
- }
- 
- .song4 p{
-     margin: 0 20px;
- }
- .song4 img{
-     margin-left: 25px;
-     width: 50px;
-     border-radius: 10px;
- }
-
- .song5{
-    display: flex;
-    align-items: center;
-    height: 50px;
-    width: 100%;
-     color: black;
-     font-family: "Exo 2", sans-serif;
-     font-weight: bolder;
-     font-size: 1.2rem;
-     margin: 15px 0;
-     
- }
- 
- .song5 p{
-     margin: 0 20px;
- }
- .song5 img{
-     margin-left: 25px;
-     width: 50px;
-     border-radius: 10px;
- }
-
  .songName{
-    width: 180px;
-
+    width: 20%;
  }
-
 
 #myProgressBar{
     width: 80vw;
