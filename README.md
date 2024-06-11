@@ -49,7 +49,7 @@ You will see a list of 5 songs, each with its title, artist, and album cover.
 Click on the play button to play a song. Click again to pause.
 
 
-License
+# License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 # Acknowledgments
